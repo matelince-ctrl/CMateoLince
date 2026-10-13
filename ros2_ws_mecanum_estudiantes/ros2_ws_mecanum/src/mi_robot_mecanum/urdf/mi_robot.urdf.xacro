@@ -138,6 +138,10 @@
           <resolution>0.01</resolution>
         </range>
         <!-- TODO: ruido gaussiano, media 0, desviación 0.01 m -->
+        <noise type="gaussian">
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
       </lidar>
     </sensor>
   </gazebo>
